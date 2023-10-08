@@ -7,6 +7,9 @@
 //STRINGS FUNDAMENTALS
 
 public class Abbreviate_a_two_word_name {
+    public static void main(String[] args) {
+        System.out.println(abbrevName("Natalie Diekmann"));
+    }
     public static String abbrevName(String name) {
         name = name.toUpperCase();    
         String[] names = name.split(" ");    

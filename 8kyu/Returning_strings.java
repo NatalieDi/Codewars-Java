@@ -3,7 +3,10 @@
 // [Make sure you type the exact thing I wrote or the program may not execute properly]
 // STRINGS FUNDAMENTALS
 public class Returning_strings{
-  public static String greet(String name)  {
+    public static void main(String[] args) {
+        System.out.println(greet("Natalie"));    }
+    public static String greet(String name)  {
    return "Hello, "+ name+" how are you doing today?";       
   }
+
 }
