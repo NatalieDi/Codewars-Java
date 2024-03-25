@@ -4,6 +4,7 @@
 public class CalculateAverage {
 
     public static void main(String[] args) {
+
         System.out.println(find_average(new int[]{1,1,1}));
     }
     public static double find_average(int[] array){
