@@ -4,8 +4,8 @@
 Example
 Kata.createPhoneNumber(new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 0}) // => returns "(123) 456-7890"
 The returned format must be correct in order to complete this challenge.
-
 Don't forget the space after the closing parentheses!*/
+
 public class CreatePhoneNumber {
     public static void main(String[] args) {
         System.out.println(createPhoneNumber(new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 0}));//(123) 456-7890
