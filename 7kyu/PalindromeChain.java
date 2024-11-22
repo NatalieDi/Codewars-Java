@@ -1,4 +1,7 @@
+/*https://www.codewars.com/kata/525f039017c7cd0e1a000a26/train/java
+*/
 public class PalindromeChain {
+
     public static void main(String[] args) {
         System.out.println("chain length = " + palindromeChainLength(87));
     }
