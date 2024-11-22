@@ -5,6 +5,12 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/7kyu" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/8kyu" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1kyu" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2kyu" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3kyu" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4kyu" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/5kyu" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/6kyu" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
