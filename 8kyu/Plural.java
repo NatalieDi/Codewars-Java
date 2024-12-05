@@ -8,8 +8,10 @@ public class Plural {
 
         System.out.println(isPlural(1f));
     }
-        public static boolean isPlural(float f){
-            return f!=1? true : false;
-        }
+
+    public static boolean isPlural(float f) {
+
+        return f != 1 ? true : false;
+    }
 }
 
