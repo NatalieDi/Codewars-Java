@@ -14,16 +14,23 @@
 //You can assume that you are only given numbers.
 //You cannot assume the size of the array.
 //You can assume that you do get an array and if the array is empty, return 0.
+
+import java.util.Arrays;
+
 public class SumArrays {
     public static void main(String[] args) {
-        System.out.println(sum(new double[] {1, 5.2, 4, 0, -1}));
+        System.out.println(sum(new double[]{1, 5.2, 4, 0, -1}));
     }
-    public static double sum(double[] numbers) {
-        double sum = 0.0;
-        for(double i: numbers){
-            sum+=i;
-        }
-        return sum;
-    }
+//    public static double sum(double[] numbers) {
+//        double sum = 0.0;
+//        for(double i: numbers){
+//            sum+=i;
+//        }
+//        return sum;
+//    }
 
+    public static double sum(double[] numbers) {
+        return Arrays.stream(numbers).sum();
+    }
 }
+
